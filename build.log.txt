@@ -1,0 +1,7 @@
+cc main.c name.c -o say_my_name
+duplicate symbol _name in:
+    /var/folders/0z/4g3t_26s3gv835xswsslbn400000gp/T/main-o2r9KB.o
+    /var/folders/0z/4g3t_26s3gv835xswsslbn400000gp/T/name-HrqX5Q.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [all] Error 1
