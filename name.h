@@ -1,7 +1,7 @@
 #ifndef NAME_H
 #define NAME_H
 
-char* name = "Heisenberg";
+char* name;
 void say_name();
 
 #endif
